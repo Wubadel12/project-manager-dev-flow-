@@ -15,8 +15,8 @@ function Layout(){
                 <Navbar/>
 
                 <div className="route-content">
-                    {state.error && <div className="api-error" role="alert">Backend: {state.error}</div>}
-                    {state.loading ? <div className="api-loading" role="status">Loading workspace data…</div> : <Outlet/>}
+                    {state.error && <div className="api-error" role="alert">{state.error}</div>}
+                    {state.loading ? <div className="api-loading" role="status">Loading project data…</div> : <Outlet/>}
                 </div>
             </div>
         </div>

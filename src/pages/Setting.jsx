@@ -45,7 +45,7 @@ function Setting() {
 
   return <main className="settings-page"><div className="settings-container">
     <header className="settings-header"><div><p className="settings-eyebrow">WORKSPACE / PREFERENCES</p><h1>Settings</h1><p>Configure how DevFlow works for you and your workspace.</p></div><span className="settings-header-mark" aria-hidden="true">⚙</span></header>
-    <p className="settings-storage-note">Settings are saved for this browser session only. Account and server persistence are not connected.</p>
+    <p className="settings-storage-note">Settings are saved for this browser session only. There is no server sync.</p>
     {notice && <p className="settings-notice" role="status">{notice}</p>}
 
     <div className="settings-layout">
